@@ -25,20 +25,21 @@ function App() {
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="app">
+          <SideBar/>
           <main className="content">
             <TopBar  />
             <Routes>
               <Route path="/" element={<Dashboard/>}/>
               <Route path="/team" element={<Team/>}/>
-              <Route path="/bar" element={<Bar/>}/>
+              <Route path="/barchart" element={<Bar/>}/>
               <Route path="/contacts" element={<Contacts/>}/>
               <Route path="/faq" element={<Faq/>}/>
               <Route path="/form" element={<Form/>}/>
               <Route path="/invoices" element={<Invoices/>}/>
-              <Route path="/line" element={<Line/>}/>
-              <Route path="/pie" element={<Pie/>}/>
+              <Route path="/linechart" element={<Line/>}/>
+              <Route path="/piechart" element={<Pie/>}/>
               <Route path="/calendar" element={<Calendar/>}/>
-              <Route path="/geography" element={<Geography/>}/>
+              <Route path="/Geographychart" element={<Geography/>}/>
             </Routes>
           </main>
         </div>

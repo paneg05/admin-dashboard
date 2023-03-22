@@ -1,9 +1,18 @@
-import React from 'react'
+import { Box } from "@mui/system";
+import Header from './../../Components/Header'
+import BarChart from "../../BarChart";
 
-function Bar() {
-  return (
-    <div>Bar</div>
-  )
+const Bar = ()=>{
+
+
+    return (
+        <Box m='20px'>
+            <Header title='Bar Chart' subtitle='Simple Bar Chart'/>
+            <Box height={'75vh'}>
+                <BarChart/>
+            </Box>
+        </Box>  
+    )
 }
 
 export default Bar

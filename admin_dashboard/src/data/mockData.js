@@ -598,6 +598,10 @@ export const mockLineData = [
 
 export const mockGeographyData = [
   {
+    id:'BRA',
+    value:800000
+  },
+  {
     id: "AFG",
     value: 520600,
   },
